@@ -1,3 +1,11 @@
+#####################################################
+# Script to link addresses to uri's from
+# address register.
+# These unlinked addressess were probably
+# previously linked, but got lost somehwere.
+# It uses https://github.com/lblod/adressenregister-fuzzy-search-service
+# to query.
+#####################################################
 import csv
 import math
 import requests
